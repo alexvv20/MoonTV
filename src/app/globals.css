@@ -29,8 +29,8 @@
   animation: fadeInUp 0.6s ease-out forwards;
 }
 
-/* KatelyaTV Logo 彩虹渐变动画 - 简化版本 */
-.katelya-logo {
+/* Danwatch Logo 彩虹渐变动画 - 简化版本 */
+.Danwatch-logo {
   background: linear-gradient(
     45deg,
     #ff6b6b,
@@ -62,7 +62,7 @@
   }
 }
 
-/* 主内容区大型 KatelyaTV Logo 容器 */
+/* 主内容区大型 Danwatch Logo 容器 */
 .main-logo-container {
   padding: 3rem 0 4rem 0;
   display: flex;
@@ -107,7 +107,7 @@
 }
 
 /* 主内容区大型 Logo - 简化版本 */
-.main-katelya-logo {
+.main-Danwatch-logo {
   font-size: 4rem;
   font-weight: 900;
   background: linear-gradient(
@@ -264,7 +264,7 @@
     margin-bottom: 1.5rem;
   }
 
-  .main-katelya-logo {
+  .main-Danwatch-logo {
     font-size: 2.5rem;
   }
 
@@ -283,7 +283,7 @@
 }
 
 @media (max-width: 480px) {
-  .main-katelya-logo {
+  .main-Danwatch-logo {
     font-size: 2rem;
   }
 
@@ -297,7 +297,7 @@
   }
 }
 
-/* 底部 KatelyaTV Logo 容器 */
+/* 底部 Danwatch Logo 容器 */
 .bottom-logo-container {
   padding: 2rem 0;
   display: flex;
@@ -425,11 +425,11 @@
     animation: none;
   }
 
-  .main-katelya-logo {
+  .main-Danwatch-logo {
     animation: none;
   }
 
-  .katelya-logo {
+  .Danwatch-logo {
     animation: none;
   }
 
