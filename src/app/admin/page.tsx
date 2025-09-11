@@ -1022,7 +1022,7 @@ const SiteConfigComponent = ({ config }: { config: AdminConfig | null }) => {
             setSiteSettings((prev) => ({ ...prev, SiteName: e.target.value }))
           }
           disabled={isD1Storage}
-          className={`w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent ${
+          className={`w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent ${
             isD1Storage ? 'opacity-50 cursor-not-allowed' : ''
           }`}
         />
@@ -1053,7 +1053,7 @@ const SiteConfigComponent = ({ config }: { config: AdminConfig | null }) => {
           }
           disabled={isD1Storage}
           rows={3}
-          className={`w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent ${
+          className={`w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent ${
             isD1Storage ? 'opacity-50 cursor-not-allowed' : ''
           }`}
         />
@@ -1074,7 +1074,7 @@ const SiteConfigComponent = ({ config }: { config: AdminConfig | null }) => {
               SearchDownstreamMaxPage: Number(e.target.value),
             }))
           }
-          className='w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent'
+          className='w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent'
         />
       </div>
 
@@ -1093,7 +1093,7 @@ const SiteConfigComponent = ({ config }: { config: AdminConfig | null }) => {
               SiteInterfaceCacheTime: Number(e.target.value),
             }))
           }
-          className='w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent'
+          className='w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent'
         />
       </div>
 
@@ -1123,7 +1123,7 @@ const SiteConfigComponent = ({ config }: { config: AdminConfig | null }) => {
             }))
           }
           disabled={isD1Storage}
-          className={`w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-green-500 focus:border-transparent ${
+          className={`w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent ${
             isD1Storage ? 'opacity-50 cursor-not-allowed' : ''
           }`}
         />
@@ -1140,7 +1140,7 @@ const SiteConfigComponent = ({ config }: { config: AdminConfig | null }) => {
           className={`px-4 py-2 ${
             saving || isD1Storage
               ? 'bg-gray-400 cursor-not-allowed'
-              : 'bg-green-600 hover:bg-green-700'
+              : 'bg-fuchsia-600 hover:bg-fuchsia-700'
           } text-white rounded-lg transition-colors`}
         >
           {saving ? '保存中…' : '保存'}
