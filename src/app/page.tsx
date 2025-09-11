@@ -305,7 +305,7 @@ function HomeClient() {
         >
           <div className='w-full max-w-md rounded-xl bg-white p-6 shadow-xl dark:bg-gray-900 transform transition-all duration-300 hover:shadow-2xl'>
             <div className='flex justify-between items-start mb-4'>
-              <h3 className='text-2xl font-bold tracking-tight text-gray-800 dark:text-white border-b border-primary-500 pb-1'>
+              <h3 className='text-2xl font-bold tracking-tight text-gray-800 dark:text-white border-b border-fuchsia-500 pb-1'>
                 提示
               </h3>
               <button
@@ -315,8 +315,8 @@ function HomeClient() {
               ></button>
             </div>
             <div className='mb-6'>
-              <div className='relative overflow-hidden rounded-lg mb-4 bg-primary-50 dark:bg-primary-900/20'>
-                <div className='absolute inset-y-0 left-0 w-1.5 bg-primary-500 dark:bg-primary-400'></div>
+              <div className='relative overflow-hidden rounded-lg mb-4 bg-fuchsia-50 dark:bg-fuchsia-900/20'>
+                <div className='absolute inset-y-0 left-0 w-1.5 bg-fuchsia-500 dark:bg-fuchsia-400'></div>
                 <p className='ml-4 text-gray-600 dark:text-gray-300 leading-relaxed'>
                   {announcement}
                 </p>
@@ -324,7 +324,7 @@ function HomeClient() {
             </div>
             <button
               onClick={() => handleCloseAnnouncement(announcement)}
-              className='w-full rounded-lg bg-gradient-to-r from-primary-600 to-primary-700 px-4 py-3 text-white font-medium shadow-md hover:shadow-lg hover:from-primary-700 hover:to-primary-800 dark:from-primary-600 dark:to-primary-700 dark:hover:from-primary-700 dark:hover:to-primary-800 transition-all duration-300 transform hover:-translate-y-0.5'
+              className='w-full rounded-lg bg-gradient-to-r from-fuchsia-600 to-fuchsia-700 px-4 py-3 text-white font-medium shadow-md hover:shadow-lg hover:from-fuchsia-700 hover:to-fuchsia-800 dark:from-fuchsia-600 dark:to-fuchsia-700 dark:hover:from-fuchsia-700 dark:hover:to-fuchsia-800 transition-all duration-300 transform hover:-translate-y-0.5'
             >
               我知道了
             </button>
